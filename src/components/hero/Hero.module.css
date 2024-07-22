@@ -1,0 +1,101 @@
+hr {
+  border-color: hsl(233, 8%, 79%);
+}
+
+/* Hero.module.css */
+
+/* General Styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.bg-Very-dark-blue {
+  background-color: #000; /* Adjust the color as needed */
+}
+
+.text-Dark-grayish-blue {
+  color: #333; /* Adjust the color as needed */
+}
+
+.text-Soft-orange {
+  color: #ff9800; /* Adjust the color as needed */
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-Inter {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .md:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg:flex-row {
+    flex-direction: row;
+  }
+}
